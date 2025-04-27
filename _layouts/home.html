@@ -28,6 +28,26 @@ body_classes: page-home
   </div>
 </div>
 
+<div class="section timeline">
+  <div class="container">
+    <div class="row">
+      <h1>Career Timeline</h1>
+      <h2>2007</h2>
+      <p>SAP Business Object Administrator, ASP Developer</p>
+      <h2>2009</h2>
+      <p>Frontend Developer - HTML, CSS, Javascript, jQuery</p>
+      <h2>2011</h2>
+      <p>.NET Developer - WinForms, ASP.NET MVC, SQL Server</p>
+      <h2>2016</h2>
+      <p>DevOps Engineer - Jenkins, GitHub, Docker Swarm, Octopus Deploy, AWS</p>
+      <h2>2020</h2>
+      <p>Cloud/DevOps Engineer - Azure, Azure DevOps, BitBucket, Kubernetes</p>
+      <h2>2024</h2>
+      <p>Cloud/DevOps Engineer - AWS, GitHub Actions, Pulumi</p>
+    </div>
+  </div>
+</div>
+
 {% assign cards = site.posts | sort: 'date' | reverse %}
 {% assign limit = page.posts.limit | default: 6 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
