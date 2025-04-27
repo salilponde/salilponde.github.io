@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Github",
+    "fa_icon": "fab fa-github",
+    "url": "http://github.com/salilponde"
+  },
+  {
+    "title": "Linkedin",
+    "fa_icon": "fab fa-linkedin",
+    "url": "https://www.linkedin.com/in/salil-ponde-26673712/"
+  },
+  {
+    "title": "RSS",
+    "fa_icon": "fas fa-feed",
+    "url": "https://salilponde.com/feed.xml"
+  }
+]
